@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-import { Car, ArrowSquareUp, Document } from 'iconsax-react';
-import { FaGithub } from 'react-icons/fa';
+import { Car, ArrowSquareUp } from 'iconsax-react';
 
 interface ProjectModalProps {
   isNightMode: boolean;

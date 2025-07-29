@@ -137,7 +137,7 @@ const Contact: React.FC<ContactProps> = ({ isNightMode }) => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = () => {
     // Let Formspree handle the submission
     // The form will submit to https://formspree.io/f/movqddvv
     console.log('Form submitted:', formData);
